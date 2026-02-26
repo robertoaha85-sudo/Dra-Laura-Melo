@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fredoka:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #FF6B6B; /* Soft Red/Pink */
+  --color-secondary: #4ECDC4; /* Teal/Turquoise */
+  --color-accent: #FFE66D; /* Soft Yellow */
+  --color-purple: #6C5CE7; /* Soft Purple */
+  --color-dark: #2D3436;
+  --color-light: #F7F9FC;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
