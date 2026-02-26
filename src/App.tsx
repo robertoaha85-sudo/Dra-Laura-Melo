@@ -20,7 +20,7 @@ const EXPERT = {
   name: "Dra. Laura Melo",
   profession: "Dentista, Odontopediatra",
   city: "Pouso Alegre, MG",
-  whatsappLink: "https://api.whatsapp.com/message/5YS4STEK5AUPK1?autoload=1&app_absent=0&utm_source=ig",
+  whatsappLink: "https://wa.me/message/5YS4STEK5AUPK1",
   instagramLink: "https://www.instagram.com/dra.lauramelo/",
   specialties: [
     { icon: <Smile className="w-5 h-5 text-green-500" />, text: "Aparelho infantil e fixo" },
